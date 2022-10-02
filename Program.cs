@@ -1,4 +1,4 @@
-﻿// Задача 1. Какое число больше, какое меньше.
+﻿// Задача 2. Какое число больше, какое меньше.
 /*
 Console.WriteLine("Введите первое целое число");
 int a = Convert.ToInt32(Console.ReadLine());
@@ -21,8 +21,10 @@ int b = Convert.ToInt32(Console.ReadLine());
 }
 */
 
-// Задача 2. Дано 3 числа, вывести большое.
 
+
+// Задача 4. Дано 3 числа, вывести большое.
+/*
 Console.WriteLine("Введите первое целое число");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе целое число");
@@ -43,4 +45,19 @@ int c = Convert.ToInt32(Console.ReadLine());
 {
         Console.WriteLine("Третее число больше остальных");
 }
-    
+*/
+
+// Задача 6. Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+/*
+Console.WriteLine("Введите целое число");
+int a = Convert.ToInt32(Console.ReadLine());
+    if (a%2==0)
+{
+    Console.WriteLine("Четное");
+}
+    else 
+{
+    Console.WriteLine("Нечетное");
+}
+*/
+
